@@ -1,0 +1,5 @@
+{
+  "name": "QuietAlert",
+  "description": "A calm, vibration-first rocket alert app for Israel. Provides gentle notifications for emergency alerts using public data.",
+  "requestFramePermissions": ["geolocation", "camera"]
+}
