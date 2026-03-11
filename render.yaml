@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: quietalert-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: AIzaSyDmBckSbpDa8h_7nNJPy5WWrHfXxQ8nTe4
+        sync: false  # you'll paste this manually in Render dashboard
